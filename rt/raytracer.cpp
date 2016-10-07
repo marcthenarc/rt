@@ -156,6 +156,8 @@ void Raytracer::render(int i, Scene &scene, int screenWidth, int screenHeight)
 
 			unsigned char comp[3];
 			color.GetBGRComponents(comp);
+            fwrite(comp, 3, 1, fp);
+
 		}
 	}
 
