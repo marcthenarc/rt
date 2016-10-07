@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "raytracer.h"
-#include <glm/glm.hpp>
 
 Raytracer::Raytracer()
 {
